@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/Orlayhemmy/Fetch_Feeds.git",
   "author": "Orlayhemmy <daminomics@gmail.com>",
