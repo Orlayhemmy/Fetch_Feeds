@@ -1,5 +1,5 @@
 {
-  "name": "Fetch_Feeds",
+  "name": "toowit",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,17 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "chalk": "^2.4.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "nodemon": "^1.18.4",
-    "twit": "^2.2.11"
+    "babel-eslint": "^10.0.1"
   }
 }
-
